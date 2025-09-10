@@ -1,0 +1,6 @@
+theme = "rose_pine_dawn"
+# theme = "base16_terminal"
+
+[editor]
+line-number = "relative"
+mouse = false
