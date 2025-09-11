@@ -18,6 +18,7 @@
 # them for future reference.
 
 $env.STARSHIP_SHELL = "nu"
+$env.PAGER = "/usr/bin/moor"
 
 
 # mise
