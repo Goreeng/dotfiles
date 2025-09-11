@@ -18,6 +18,12 @@
 # them for future reference.
 
 $env.STARSHIP_SHELL = "nu"
+$env.PAGER = "/usr/bin/moor"
+
+
+# mise
+let mise_path = $nu.default-config-dir | path join mise.nu
+^mise activate nu | save $mise_path --force
 
 # carapace
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
