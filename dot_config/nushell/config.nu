@@ -44,6 +44,9 @@ def --env y [...args] {
 	}
 	rm -fp $tmp
 }
+# mise
+use ($nu.default-config-dir | path join mise.nu)
 
 # zoxide
 source ~/.zoxide.nu
+
