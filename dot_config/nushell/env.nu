@@ -18,7 +18,10 @@
 # them for future reference.
 
 $env.STARSHIP_SHELL = "nu"
+$env.STARSHIP_CONFIG = "/home/wendy/.config/starship.toml"
 $env.PAGER = "/usr/bin/moor"
+$env.SHELL = "/usr/bin/helix"
+$env.KUBECONFIG = "/home/wendy/.kube/config"
 
 
 # mise
