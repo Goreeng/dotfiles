@@ -26,7 +26,7 @@ alias hx = helix
 alias cz = chezmoi
 
 # paths
-$env.PATH ++= ["~/.config/emacs/bin"]
+$env.PATH ++= ["~/.config/emacs/bin", "~/.krew/bin"]
 
 # starship
 mkdir ($nu.data-dir | path join "vendor/autoload")
@@ -50,4 +50,3 @@ use ($nu.default-config-dir | path join mise.nu)
 
 # zoxide
 source ~/.zoxide.nu
-
