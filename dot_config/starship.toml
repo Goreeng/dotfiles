@@ -34,10 +34,12 @@ deleted    = ""
 
 [kubernetes]
 disabled = false
-format = 'on [$symbol $context](dimmed green) '
+format = 'on [$symbol $context]($style) '
 contexts = [
-  { context_pattern = "*staging*", style = "green", symbol = "" },
-  { context_pattern = "*prod*", style = "red", symbol = "" },
+  { context_pattern = "gke-staging", style = "green", symbol = "" },
+  { context_pattern = "gke-prod", style = "red", symbol = "" },
+  { context_pattern = "eks-staging", style = "green", symbol = "" },
+  { context_pattern = "eks-prod", style = "red", symbol = "" },
 ]
 
 [gcloud]
