@@ -1,0 +1,3 @@
+function cz
+    chezmoi
+end
