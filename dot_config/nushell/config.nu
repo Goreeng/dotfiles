@@ -23,6 +23,7 @@ $env.config.show_banner = false
 # aliases
 alias zed = zeditor
 alias hx = helix
+alias cz = chezmoi
 
 # paths
 $env.PATH ++= ["~/.config/emacs/bin"]
