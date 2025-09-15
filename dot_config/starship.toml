@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 add_newline = true
 command_timeout = 200
-format = "[$directory$git_branch$git_status$kubernetes$aws]($style)$character"
+format = "[$directory$git_branch$git_status$kubernetes$aws$gcloud]($style)$character"
 
 [character]
 error_symbol = "[✗](bold cyan)"
@@ -39,3 +39,8 @@ contexts = [
   { context_pattern = "*staging*", style = "green", symbol = "" },
   { context_pattern = "*prod*", style = "red", symbol = "" },
 ]
+
+[gcloud]
+disabled = true
+format = 'on [$symbol ($project)]($style) '
+symbol = ''
