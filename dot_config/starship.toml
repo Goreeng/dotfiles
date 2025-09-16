@@ -1,6 +1,7 @@
+"$schema" = 'https://starship.rs/config-schema.json'
 add_newline = true
 command_timeout = 200
-format = "[$directory$git_branch$git_status]($style)$character"
+format = "[$directory$git_branch$git_status$kubernetes$aws$gcloud]($style)$character"
 
 [character]
 error_symbol = "[✗](bold cyan)"
@@ -30,3 +31,20 @@ stashed    = ""
 staged     = ""
 renamed    = ""
 deleted    = ""
+
+[kubernetes]
+disabled = false
+format = 'on [$symbol $context]($style) '
+contexts = [
+  { context_pattern = "gke-staging", style = "green", symbol = "" },
+  { context_pattern = "gke-prod", style = "red", symbol = "" },
+  { context_pattern = "eks-staging", style = "green", symbol = "" },
+  { context_pattern = "eks-prod", style = "red", symbol = "" },
+  { context_pattern = "tke-staging", style = "green", symbol = "" },
+  { context_pattern = "tke-prod", style = "red", symbol = "" },
+]
+
+[gcloud]
+disabled = true
+format = 'on [$symbol ($project)]($style) '
+symbol = ''
