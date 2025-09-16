@@ -7,9 +7,12 @@ shell = "/usr/bin/nu"
 TERM = "xterm-256color"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font" }
-bold = { family = "JetBrainsMono Nerd Font" }
-italic = { family = "JetBrainsMono Nerd Font" }
+# normal = { family = "JetBrainsMono Nerd Font" }
+# bold = { family = "JetBrainsMono Nerd Font" }
+# italic = { family = "JetBrainsMono Nerd Font" }
+normal = { family = "Berkeley Mono" }
+bold = { family = "Berkeley Mono" }
+italic = { family = "Berkeley Mono" }
 size = 16
 
 [window]
