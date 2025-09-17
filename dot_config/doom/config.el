@@ -3,16 +3,6 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
-(when (file-exists-p custom-file)
-  (load custom-file 'noerror))
-
-(use-package! xclip
-  :config
-  (setq xclip-program "wl-copy")
-  (setq xclip-select-enable-clipboard t)
-  (setq xclip-mode t)
-  (setq xclip-method (quote wl-copy)))
-
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
