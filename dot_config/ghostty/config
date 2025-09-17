@@ -1,0 +1,11 @@
+# shell-integration = fish
+command = "/usr/bin/nu"
+
+theme = "rose-pine-dawn"
+font-family = "Berkeley Mono"
+font-size = 14
+link-url = true
+window-decoration = true
+
+
+keybind = ctrl+shift+x=close_surface
