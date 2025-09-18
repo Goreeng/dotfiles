@@ -1,7 +1,7 @@
 # shell-integration = fish
 command = "/usr/bin/nu"
 
-theme = "rose-pine-dawn"
+theme = Rose Pine Dawn
 font-family = "Berkeley Mono"
 font-size = 14
 link-url = true
