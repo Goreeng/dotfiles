@@ -1,0 +1,18 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+[
+  {
+    "label": "Open Magit in terminal",
+    "command": "emacs -nw -f magit-status",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "shell": "system"
+  },
+  {
+    "label": "Open Magit in Emacs",
+    "command": "emacsclient -c -e '(magit-status)'",
+    "allow_concurrent_runs": false,
+    "reveal": "never",
+    "shell": "system"
+  }
+]
