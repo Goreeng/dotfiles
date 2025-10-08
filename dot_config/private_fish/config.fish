@@ -7,6 +7,8 @@ if status is-interactive
 
     # PATHs
     fish_add_path $HOME/.config/emacs/bin
+    fish_add_path $HOME/.krew/bin
+    fish_add_path $HOME/.opencode/bin
 
     # yazi
     function y
