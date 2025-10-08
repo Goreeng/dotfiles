@@ -21,9 +21,10 @@
 $env.config.show_banner = false
 
 # aliases
-alias zed = zeditor
-alias hx = helix
+alias zed = zeditor .
+alias hx = helix .
 alias cz = chezmoi
+alias e = emacsclient -c -n .
 
 # paths
 $env.PATH ++= ["~/.config/emacs/bin", "~/.krew/bin"]
@@ -34,6 +35,7 @@ starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.n
 
 # carapace
 source ~/.cache/carapace/init.nu
+
 
 # Yazi
 def --env y [...args] {

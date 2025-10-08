@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 add_newline = true
 command_timeout = 200
-format = "[$directory$git_branch$git_status$kubernetes$aws$gcloud]($style)$character"
+format = "[$directory$git_branch$git_status$kubernetes$aws$gcloud$ocaml]($style)$character"
 
 [character]
 error_symbol = "[✗](bold cyan)"

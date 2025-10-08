@@ -23,7 +23,6 @@ $env.PAGER = "/usr/bin/moor"
 $env.EDITOR = "/usr/bin/helix"
 $env.KUBECONFIG = "/home/wendy/.kube/config"
 
-
 # mise
 let mise_path = $nu.default-config-dir | path join mise.nu
 ^mise activate nu | save $mise_path --force
